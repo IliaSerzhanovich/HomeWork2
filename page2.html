@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница 2. Изображения</title>
+    <meta name="description" content="Страница с изображениями и кликабельной картой">
+</head>
+<body>
+    <h1>Вставка изображений в HTML-документ</h1>
+    <hr>
+    <h2>Греция</h2>
+
+    <p>Греция находится в Южной Европе и занимает южную часть Балканского полуострова.</p>
+
+    <p>Территория страны делится на материковую часть, полуостров Пелопоннес и острова в Эгейском море (крупнейшие — Крит, Лесбос, Эвбея).</p>
+    
+    <figure>
+        <img src="/images/img_peloponnese.png" alt="пелопонес картинка 1">
+        <img src="/images/img_peloponnese2.png" alt="пелопонес картинка 2">
+            <figcaption>Рельеф страны представляет собой чередование гористой местности и безлесых выровненных 
+                участков, живописных плодородных долин, мелких бухт, заливов, островных территорий, карстовых 
+                воронок и пещер в западной части Греции.
+            </figcaption>    
+    </figure>  
+    <hr>
+    <h2>Создание изображения в качестве карты</h2> 
+    
+    <img src="/images/map_peloponnese.jpeg" alt="карта аэропортов" usemap="#cordinate">     
+    <map name="cordinate">
+        <area shape="circle" coords="324,120,60" href="https://www.skg-airport.gr/en/" alt="Saloniki" target="_blank">
+        <area shape="circle" coords="124,454,30" href="https://www.zth-airport.gr/en" alt="Zakinf" target="_blank">
+        <area shape="poly" coords="211,437,252,583,350,470,234,434" href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D0%BB%D0%BE%D0%BF%D0%BE%D0%BD%D0%BD%D0%B5%D1%81" alt="pelopones" target="_blank">
+        <area shape="circle" coords="404,433,30" href="https://www.aia.gr/traveler/" alt="Afini" target="_blank">
+        <area shape="circle" coords="519,693,30" href="http://www.hcaa.gr/en/our-airports/kratikos-aerolimenas-hrakleioy-n-kazantzakhs" alt="Iraklion" target="_blank">
+        <area shape="circle" coords="728,530,30" href="https://www.kgs-airport.gr/en/" alt="Kos" target="_blank">
+        <area shape="circle" coords="817,600,30" href="https://www.rhodes-airport.info/" alt="Rodos" target="_blank">
+    </map>
+</body>
+</html>

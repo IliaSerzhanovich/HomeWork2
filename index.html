@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork2</title>
+    <meta name="description" content="homework2 page 1. This is first page">
+</head>
+<body>
+    <h1>Теги для создания списков</h1>
+    <h2>Виды списков:</h2>
+    
+    <ol type="a" reversed>
+        <li>маркированный список (<a href="#unordered">unordered list</a>);</li>
+        <li>нумерованный список (<a href="#ordered">ordered list</a>);</li>
+        <li>список определений (<a href="#descriptionlist">definition list</a>).</li>
+    </ol>
+
+    <p>Маркированный и нумерованный списки представляют собой контейнеры, внутри которых располагаются элементы списка.</p>
+    
+    <h3 id="unordered">Маркированный список</h3>
+        
+    <ul style="list-style-type:square;list-style-position:inside;">
+            <li>Маркированный список создается с помощью с помощью тега &lt;ul&gt;&lt;/ul&gt; (unordered list).</li>
+            <li style="list-style-type:none">В качестве маркера элемента списка выступает метка, например, закрашенный кружок.</li>
+            <li>Элементы маркированного списка создаются с помощью тега &lt;li&gt;&lt;/li&gt; (list item).</li>
+        </ul>
+
+    <h3 id="ordered">Нумерованный список</h3>
+
+        <ul style="list-style-type:circle;">
+            <li>Нумерованный список создается с помощью тега &lt;ol&gt;&lt;/ol&gt; (ordered list).</li>
+            <li style="list-style-type:none">Нумерация может быть числовая или алфавитная.</li>
+            <li>Элементы маркированного списка (по аналогии с нумерованнымы списками) создаются с помощью тега &lt;li&gt;&lt;/li&gt; (list item).</li>
+        </ul>
+
+        <p>
+            С помощью CSS-свойств можно изменить внешний вид маркера списка, добавить изображение для маркера и изменить его местоположение.
+        </p>
+
+        <img src="/images/img.png" alt="списки и опдеделения списков">
+
+    <h3 id="descriptionlist">Cписок определений</h3>
+
+        <ul style="list-style-type:none; list-style-image:url(/images/icon.png) ;">
+            <li>Cписок определений создается с помощью с помощью тега &lt;dl&gt;&lt;/dl&gt; (definition list)</li>
+            <li>Для добавления термина применяется тег &lt;dt&gt;&lt;/dt&gt;, а для вставки определения — &lt;dd&gt;&lt;/dd&gt;.</li>
+        </ul>
+
+        <p>Списки можно помещать друг в друга. Например, внутрь маркированного списка можно вложить нумерованный список, и наоборот</p>
+        <hr>
+        
+        <a href="/page2.html" target="_blank">Следущая тема</a>
+</body>
+</html>
